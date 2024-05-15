@@ -1,0 +1,62 @@
+/* topper */
+
+.topper .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.topper__lng {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 72%;
+    color: #323232;
+    cursor: pointer;
+}
+
+.topper__logo {
+    color: #323232;
+    font-size: 32px;
+    line-height: 72%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.topper__search {
+    cursor: pointer;
+}
+
+/* topper */
+
+/* nav */
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    border-bottom: solid 1px #c4c4c4;
+}
+
+.nav__list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav__link {
+    color: #323232;
+}
+
+.nav__icons {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__icon {
+    cursor: pointer;
+}
+
+/* nav */

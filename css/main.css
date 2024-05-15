@@ -1,0 +1,229 @@
+@import url(common.css);
+@import url(fonts.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(root.css);
+
+/* intro */
+
+.intro__cards {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 40px;
+}
+
+.main__card {
+    background: #e1e1e1;
+    max-width: 710px;
+    width: 100%;
+    position: relative;
+    grid-column: 2 span;
+    grid-row: 2 span;
+    border-radius: 8px;
+    overflow: hidden;
+
+    &[data-sale]::before {
+        content: attr(data-sale);
+        position: absolute;
+        top: 20px;
+        left: 13px;
+        background: #323232;
+        padding: 11px 31px;
+        color: #fff;
+        border-radius: 8px;
+    }
+}
+
+.main__card-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    padding: 197px 0 181px 0;
+}
+
+.main__card-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.main-card-txt {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-card-price {
+    font-size: 18px;
+}
+
+.main__card-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    right: 27px;
+    top: 20px;
+    opacity: 0;
+    transition: 0.4s;
+    transform: translateX(150%);
+}
+
+.main__card:hover .main__card-icons {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.main__card-icon:hover {
+    background: rgb(209, 209, 209);
+}
+
+.main__card-icon  {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.intro__card {
+    background: #e1e1e1;
+    max-width: 340px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+
+    &[data-sale]::before {
+        content: attr(data-sale);
+        position: absolute;
+        top: 20px;
+        left: 13px;
+        background: #323232;
+        padding: 11px 31px;
+        color: #fff;
+        border-radius: 8px;
+    }
+}
+
+.intro__card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 22px;
+}
+
+.intro__card-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.intro__card-img {
+    width: 125px;
+}
+
+.intro__card-icons {
+    opacity: 0;
+    transition: 0.4s;
+    transform: translateX(150%);
+}
+
+.intro__card:hover .intro__card-icons {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.intro__card-icon {
+    transition: 0.4s;
+}
+
+.intro__card-icon:hover {
+    background: rgb(209, 209, 209);
+} 
+
+/* intro */
+
+/* sale */
+
+.sale__title {
+    font-size: 22px;
+    letter-spacing: 0.11em;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 100px 0;
+}
+
+.sale__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.sale__card {
+    background: #e1e1e1;
+    max-width: 247px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+
+    &[data-sale]::before {
+        content: attr(data-sale);
+        position: absolute;
+        top: 20px;
+        left: 13px;
+        background: #323232;
+        padding: 11px 31px;
+        color: #fff;
+        border-radius: 8px;
+    }
+}
+
+.sale__card-img {
+    width: 96px;
+}
+
+.sale__card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 8px;
+    padding-bottom: 23px;
+    gap: 27px;
+}
+
+.sale__card-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.sale__card-icons {
+    opacity: 0;
+    transition: 0.4s;
+    transform: translateX(150%);
+}
+
+.sale__card:hover .sale__card-icons {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.sale__card-icon {
+    transition: 0.4s;
+}
+
+.sale__card-icon:hover {
+    background: rgb(209, 209, 209);
+} 
+
+/* sale */
