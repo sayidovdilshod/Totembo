@@ -9,6 +9,7 @@
 .intro__cards {
     display: grid;
     gap: 30px;
+    justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     margin-top: 40px;
@@ -227,3 +228,145 @@
 } 
 
 /* sale */
+
+/* news */
+
+.news__title {
+    font-size: 22px;
+    letter-spacing: 0.11em;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 100px 0 103px;
+}
+
+.news__cards-parent{
+    display: flex;
+    gap: 30px;
+}
+
+.news__main-card {
+    position: relative;
+
+    &[data-advise]::before {
+        content: attr(data-advise);
+        position: absolute;
+        background: #fff;
+        border-radius: 8px;
+        padding: 15px 30px;
+        color: #323232;
+        text-transform: uppercase;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+    }
+}
+
+.main__card-image {
+    position: relative;
+}
+
+.main__card-title {
+    color: #fff;
+    font-size: 22px;
+    max-width: 492px;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    top: 110px;
+    /* font-variant: all-small-caps; */
+}
+
+.main__card-txt {
+    position: absolute;
+    top: 184px;
+    left: 24px;
+    color: #e1e1e1;
+    font-size: 18px;
+    line-height: 122%;
+    max-width: 460px;
+    width: 100%;
+}
+
+.main__icon {
+    position: absolute;
+    top: 320px;
+    left: 20px;
+}
+
+.main__card-date {
+    position: absolute;
+    left: 50px;
+    top: 320px;
+    color: #fff;
+}
+
+.news__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.news__card {
+    position: relative;
+
+    &[data-advise]::before {
+        content: attr(data-advise);
+        position: absolute;
+        background: #fff;
+        border-radius: 8px;
+        padding: 10px 15px;
+        color: #323232;
+        text-transform: uppercase;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+    }
+}
+
+.news__card-wrapper {
+    display: flex;
+    gap: 29px;
+}
+
+.news__card-img {
+    position: relative;
+    max-width: 248px;
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+.news__card-title {
+    position: absolute;
+    top: 83px;
+    left: 19px;
+    color: #fff;
+    font-size: 22px;
+    width: 228px;
+}
+
+.news__card-txt {
+    position: absolute;
+    top: 150px;
+    left: 19px;
+    color: #e1e1e1;
+    font-size: 18px;
+    line-height: 122%;
+    width: 227px;
+}
+
+.news__card-icon {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+}
+
+.news__card-date {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    color: #fff;
+}
+
+/* news */

@@ -1,0 +1,89 @@
+.footer {
+    background: #fff;
+    margin-top: 116px;
+    padding: 65px 0 63px;
+}
+
+.footer__cards {
+    display: flex;
+    gap: 111px;
+}
+
+.footer__products {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer__title {
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    font-size: 18px;
+    color: #323232;
+}
+
+.footer__subtitle {
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    font-size: 18px;
+    color: #323232;
+    padding-top: 10px;
+    padding-bottom: 22px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__link {
+    font-size: 18px;
+    line-height: 72%;
+    color: #000;
+}
+
+.footer__sale {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-left: 33px;
+}
+
+.footer__adress {
+    color: #323232;
+    font-size: 18px;
+}
+
+.footer__numbers {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__number {
+    color: #323232;
+    font-size: 18px;
+}
+
+.footer__email {
+    color: #323232;
+    font-size: 18px;
+}
+
+.footer__icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer__adresses {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

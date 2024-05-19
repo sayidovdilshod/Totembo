@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding-top: 18px;
     padding-bottom: 19px;
+    border-bottom: solid 1px #c4c4c4;
 }
 
 .topper__lng {
