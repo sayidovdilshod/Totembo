@@ -179,7 +179,7 @@
         content: attr(data-sale);
         position: absolute;
         top: 20px;
-        left: 13px;
+        left: 20px;
         background: #323232;
         padding: 11px 31px;
         color: #fff;
@@ -264,6 +264,7 @@
 
 .main__card-image {
     position: relative;
+    max-width: 525px;
 }
 
 .main__card-title {
