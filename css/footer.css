@@ -7,6 +7,7 @@
 .footer__cards {
     display: flex;
     gap: 111px;
+    flex-wrap: wrap;
 }
 
 .footer__products {
@@ -56,6 +57,12 @@
     padding-left: 33px;
 }
 
+@media (width <= 1069px) {
+    .footer__socials {
+        padding-left: unset;
+    }
+}
+
 .footer__adress {
     color: #323232;
     font-size: 18px;
@@ -64,6 +71,7 @@
 .footer__numbers {
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .footer__number {
