@@ -29,27 +29,4 @@ img {
     padding: 0 15px;
 }
 
-.txt {
-    font-size: clamp(14px, 3vw, 20px);
-    font-weight: 700;
-}
 
-.price {
-    font-size: clamp(14px, 4vw, 18px);
-}
-
-.icons {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    position: absolute;
-    right: 18px;
-    top: 20px;
-}
-
-.icon {
-    background: #fff;
-    padding: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-}
