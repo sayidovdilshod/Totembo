@@ -78,7 +78,8 @@
         display: flex;
         align-items: center;
         width: 50px;
-        height: 25px;
+        height: 20px;
+        /* checking nav__burger height */
 
         &:hover {
             .nav__burer-line {
@@ -97,6 +98,10 @@
                     height: 3px;
                     border-radius: 2px;
                 }
+            }
+
+            ~ .nav__menu {
+                transform: scale(1);
             }
         }
     }
