@@ -1,0 +1,58 @@
+@import url(common.css);
+@import url(fonts.css);
+@import url(media.css);
+
+/* nav*/
+
+.nav {
+    padding: 50px 20px 12px;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #323232;
+    padding-bottom: 20px;
+}
+
+.nav__content {
+    display: flex;
+    gap: 50px;
+}
+
+.nav__logo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 72%;
+    color: #323232;
+    text-transform: uppercase;
+}
+
+.nav__list {
+    display: flex;
+    gap: 44px;
+}
+
+.nav__link {
+    color: #323232;
+    transition: 0.4s;
+}
+
+.nav__link:hover {
+    color: rgb(195, 195, 195);
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__icons-lng {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #323232;
+}
+
+/* nav*/
